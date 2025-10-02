@@ -4,6 +4,7 @@
     "type": "module",
     "private": true,
     "scripts": {
+        "build": "node registerCommands.js",
         "start": "node index.js"
     },
     "devDependencies": {

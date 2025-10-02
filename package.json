@@ -4,7 +4,7 @@
     "type": "module",
     "private": true,
     "scripts": {
-        "start": "node index.ts"
+        "start": "node index.js"
     },
     "devDependencies": {
         "@types/bun": "latest"

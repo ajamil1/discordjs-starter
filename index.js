@@ -11,7 +11,7 @@ client.on(Events.InteractionCreate, async interaction => {
 
     switch (interaction.commandName) {
         case "ping":
-            await interaction.reply("Pong!");
+            await interaction.reply("1200ms");
             break;
         case "howdy":
             await interaction.reply("Hello!");
